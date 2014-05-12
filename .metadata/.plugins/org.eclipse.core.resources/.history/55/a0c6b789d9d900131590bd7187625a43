@@ -1,0 +1,34 @@
+package examen;
+import java.util.Scanner;
+public class ejercicio1 {
+
+	public static void main(String[] args) {
+		Scanner s= new Scanner(System.in);	
+		System.out.print("Rating de Peliculas");
+		System.out.print("Ingrese una Calificacion para Rio2(de 1 a 5)");
+		int cali=s.nextInt();
+		if (cali==1);
+		System.out.print("Pesima"); 
+			
+	    /*else if (cali==2);
+			System.out.print("Mala");
+				if (cali==3);
+				System.out.print("Regular");
+					if (cali==4);
+					System.out.print("Buena");
+						if(cali==5);
+						System.out.print("Excelente");*/
+
+	}
+	}
+
+
+
+/*Ejercicio 1: Rating de películas (5pts)
+Realizar un programa en Java donde se mostrará el titulo de una película. 
+Seguidamente, el usuario ingresará una calificación de 1 a 5 estrellas.
+Si el usuario ingresó 1, se imprimirá "Pésima"; 2, "Mala"; 3, "Regular"; 
+4, "Buena"; 5, "Exeletente"
+Ejemplo:
+Ingrese un rating de 1 a 5 para "The Amazing Spiderman 2": 4
+Buena*/
